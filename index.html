@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <meta name="description" content="Rishi Goel's Personal Website, University of Waterloo Student Systems Design Engineering">
 		<meta name="keywords" content="Rishi Goel rishi goel SYDE systems design engineering UW University of Waterloo 2019 hype awesome cool">
 	    <meta name="author" content="Rishi Goel">
@@ -13,81 +13,111 @@
 		<link href="assets/css/animate.css" rel="stylesheet">
 	    <link href="assets/css/style.css" rel="stylesheet">
 		<link rel="icon" type="image/png" href="icon.png">
-		<meta name="viewport" content="user-scalable=yes, width=1280" />
+		<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
 	   	<title>Rishi Goel</title>
 	</head>
 	<body>
 	<ul id = "nav">
+	<div class="container center">
 		<li id="logo" onclick="scrollToSection('rg')">RG</li>
 		<li id="navItem" onclick="scrollToSection('work')">Experience</li>
 		<li id="navItem" onclick="scrollToSection('project')">Projects</li>
 		<li id="navItem" onclick="scrollToSection('riddle')">Riddles</li>
+	</div>
 	</ul>
-	<div id="content" style="padding-top: 80px;">
+	<div id="content" style="padding-top: 0px;">
 
 <!-- ---------------------------------------------WHAT WE DO------------------------------------------------ -->
 
 		<div class="my container animated fadeIn medium" id="rgSec">
-			<div class="myTitle ">Rishi Goel</div>
-			<p>Get hyped.</p>
-			<div class="footer-banner">
+		<div class="outer borderbot">
+			<div class="middle">
+				<div class="inner">
+					<div class="rishi">Rishi Goel</div>
+					<p>Get hyped.</p>					
+				</div>
+			</div>
+		</div>
+
+			<div class="footer-banner container center">
       	      <div class="contact">
+      	    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       	      	<a href="https://github.com/rishigoel" target="_blank"><img class="icon" src="assets/img/github_icon.png"></a>
-        		<a href="https://rishigoel.github.io/rishigoel.pdf" target="_blank"><img class="iconNotSquare" src="assets/img/resume_icon.png"></a>
+
+      	     </div>
+
+      	     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        		<a href="https://rishigoel.github.io/rishigoel.pdf" target="_blank"><img class="icon" src="assets/img/resume_icon.png"></a>
+        	</div>
+        	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
         		<a href="https://ca.linkedin.com/in/rishigoel1" target = "_blank"><img class="icon" src="assets/img/linkedin_icon.png"></a>
+        	</div>
       		</div>
 		</div>
 	</div>	
 <!-- -------------------------------------------------TEAM-------------------------------------------- -->
 
-		<div class="my container" id="workSec">
+		<div class="my" id="workSec">
 			<h2 class="myTitle">Experience</h2>
 			<p>Messi > Ronaldo.</p>
-			<div class="capco member">
+			<div class="capco member container">
 				<div class="text col-lg-7 col-md-7 col-sm-7 col-xs-12" style="float: right;">
 					<h3 class="name">Capco</h3>
 					<div class="position">Mobile Developer/Digital Consultant<br> May 2016 - August 2016</div>
 					<ul class="bio">
-						<li>Worked on a Caribbean mobile banking app for iOS and Android</li>
-						<li>Implemented UIGestureRecognizer and Core Animation on UITableView to simulate dropdown menus</li>
-						<li>Developed private CocoaPods in order to seamlessly integrate custom projects into the app </li>
-						<li>Utilized network calls, delegates and closures in order to retrieve and display data</li>
-						<li>Consulted with the client on a daily basis in order to determine project requirements, features and UX</li>
+					<li>Worked on a Caribbean mobile banking app for iOS and Android</li>
+					<br>
+					<li>Implemented UIGestureRecognizer and Core Animation on UITableView to simulate dropdown menus</li>
+					<br>
+					<li>Developed private CocoaPods in order to seamlessly integrate custom projects into the app </li>
+					<br>
+					<li>Utilized network calls, delegates and closures in order to retrieve and display data</li>
+					<br>
+					<li>Consulted with the client on a daily basis in order to determine project requirements, features and UX</li>
+					<br>
 					</ul>
 				</div>
 				<img class="picture col-lg-5 col-md-5 col-sm-5 col-xs-12" style="float: right;" src="assets/img/transparent.png">
 			</div>
 
 
-			<div class="redLab member">
+			<div class="redLab member container">
 				<div class="text col-lg-7 col-md-7 col-sm-7 col-xs-12" style="float: left;">
 					<h3 class="name">Manulife REDLAB</h3>
 					<div class="position">Solutions Prototype Developer <br> September 2015 - December 2015</div>
 					<ul class="bio">
 						<li>Designed and developed 8 customer-oriented, high fidelity prototypes using Swift, Sketch, Ionic, Invision, Firebase, and Photoshop</li>
+						<br>
 						<li>Conducted user interviews and created personas in order to fully understand the problem space</li>
+						<br>
 						<li>Wireframed low fidelity and high fidelity screens by handrawing or using Sketch and Photoshop</li>
+						<br>
 						<li>Performed usability testing and A/B testing, which allowed us to evaluate multiple design concepts</li>
+						<br>
 						<li>Consulted with stakeholders from head office in the interest of determining business objectives</li>
+						<br>
 					</ul>
 				</div>
 				<img class="picture col-lg-5 col-md-5 col-sm-5 col-xs-12" style="float: left;" src="assets/img/transparent.png">
 			</div>
 
-			<div class="protecode member">
+			<div class="protecode member container">
 				<div class="text col-lg-7 col-md-7 col-sm-7 col-xs-12" style="float: right;">
 					<h3 class="name">Protecode</h3>
 					<div class="position">Developer <br> January 2015 - April 2015</div>
 					<ul class="bio">
 						<li>Developed a popular-projects program using C#, ASP.NET, and SQL which elevated the number of relevant projects in the database by 20%</li>
+						<br>
 						<li>Rewrote the entire QA platform using Java and MySQL by removing redundancies in the code base, thus increasing our QA efficiency by 300%</li>
+						<br>
 						<li>Built a database search-and-count program for our sales team using Java and PostgreSQL, which allowed them to respond to customer enquiries much more promptly</li>
+						<br>
 					</ul>
 				</div>
 				<img class="picture col-lg-5 col-md-5 col-sm-5 col-xs-12" style="float: right;" src="assets/img/transparent.png">
 			</div>
 
-			<div class="cineplex member">
+			<div class="cineplex member container">
 				<div class="text col-lg-7 col-md-7 col-sm-7 col-xs-12" style="float: left;">
 					<h3 class="name">Cineplex</h3>
 					<div class="position">Cast Member <br> March 2013 - August 2014</div>
@@ -102,12 +132,12 @@
 			<h2 class="myTitle">Projects</h2>
 			<p>I miss the old Kanye.</p>
 
-			<img src="assets/img/project1.png" href="#project1Modal" data-toggle="modal" class="photo col-lg-4 col-md-4 col-sm-6 col-xs-6">
-			<img src="assets/img/project2.png" href="#project2Modal" data-toggle="modal" class="pic col-lg-4 col-md-4 col-sm-6 col-xs-6">
-			<img src="assets/img/project3.png" href="#project3Modal" data-toggle="modal" class="photo col-lg-4 col-md-4 col-sm-6 col-xs-6">
-			<img src="assets/img/project4.png" href="#project4Modal" data-toggle="modal" class="pic col-lg-4 col-md-4 col-sm-6 col-xs-6">
-			<img src="assets/img/project5.png" href="#project5Modal" data-toggle="modal" class="photo col-lg-4 col-md-4 col-sm-6 col-xs-6">
-			<img src="assets/img/project6.png" href="#project6Modal" data-toggle="modal" class="pic col-lg-4 col-md-4 col-sm-6 col-xs-6">
+			<img src="assets/img/project1.png" href="#project1Modal" data-toggle="modal" class="photo col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<img src="assets/img/project2.png" href="#project2Modal" data-toggle="modal" class="pic col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<img src="assets/img/project3.png" href="#project3Modal" data-toggle="modal" class="photo col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<img src="assets/img/project4.png" href="#project4Modal" data-toggle="modal" class="pic col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<img src="assets/img/project5.png" href="#project5Modal" data-toggle="modal" class="photo col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<img src="assets/img/project6.png" href="#project6Modal" data-toggle="modal" class="pic col-lg-4 col-md-4 col-sm-6 col-xs-12">
 
 		<div class="modal fade" id="project1Modal">
 			<div class="modal-dialog">

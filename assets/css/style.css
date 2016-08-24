@@ -3,6 +3,18 @@ body {
 	font-family: 'HelveticaNeue-Thin';
 	color: #090221;
 	font-size: 20px;
+
+}
+
+.container {
+	max-width: 960px;
+
+}
+
+.center {
+	left: 0px !important;
+	right: 0px !important;
+	margin: auto !important;
 }
 button {
 	border: none;
@@ -149,7 +161,6 @@ button {
 .my.container {
 	padding-bottom: 50px;
 	margin-bottom: 50px;
-	border-bottom: solid 1px #160549;
 }
 
 p {
@@ -169,19 +180,14 @@ p {
 }
 
 .footer-banner .icon {
-	height: 75px;
-	width: 75px;
-	margin-right: 45px;
-	margin-left: 45px;
+	width: 50px;
+
 	transition: 0.2s ease-out;
-	-webkit-transition: 0.2s ease-out;
+	-webkit-transition: 0.2s ease-out;*/
 }
 
 .footer-banner .iconNotSquare {
-	height: 75px;
 	width: 50px;
-	margin-right: 45px;
-	margin-left: 45px;
 	transition: 0.2s ease-out;
 	-webkit-transition: 0.2s ease-out;
 }
@@ -208,25 +214,21 @@ p.large {
 }
 
 .member>div>.name {
-	font-size: 60px;
+	font-size: 48px;
 	font-family: "HelveticaNeue-UltraLight";
-	margin-left: 20px;
-	margin-right: 20px;
 	color: #fff;
 }
 
 .member>div>.position {
 	font-size: 20px;
 	margin-bottom: 40px;
-	margin-top: -10px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-top: 16px;
 	font-family: "HelveticaNeue-Thin";
 	color: #fff;
 }
 
 .member>div>.bio {
-	font-size: 20px;
+	font-size: 16px;
 	margin: 20px;
 	text-align: left;
 	color: #fff;
@@ -281,12 +283,6 @@ p.large {
 	background-position: right 100px bottom;
 }
 
-#map {
-	max-width: 600px;
-	margin: auto;
-	height: 400px;
-	background-color: #EFEDE4;
-}
 a {
 	color: #098B54;
 }
@@ -297,65 +293,6 @@ a.none {
 	text-decoration: none;
 }
 
-
-#searchJob {
-	text-align: center;
-	position: relative;
-	left: 50%;
-	margin-left: -180px;
-	margin-top: 40px;
-	margin-bottom: 80px;
-	width: 360px;
-	height: 70px;
-	background-color: #098B54;
-	font-family: "HelveticaNeue-UltraLight";
-	color: #161616;
-	font-size: 40px;
-	border: none;
-	border-radius: 3px;
-}
-
-#searchJob:hover, #searchJob.focus {
-	background-color: #83E6BE;
-}
-footer {
-	width: 100%;
-	height: auto;
-	background-color: #098B54;
-}
-
-#twitter {
-	width: 60px;
-	height: 60px;
-	background: url(../img/twitter.svg) no-repeat;
-	background-size: 100% 100%;
-	background-position: center center;
-	position: absolute;
-	margin-left: -50px;
-	left: 50%;
-	margin-top: 20px;
-}
-#footerTitle {
-	margin-top: 40px;
-	width: 100%;
-	text-align: center;
-	color: #161616;
-	font-size: 30px;
-}
-
-.copyright {
-	text-align: right;
-	color: #161616;
-	font-size: 12px;
-	margin-top: 40px;
-}
-.thumb {
-	height: 300px;
-	background-color: grey;
-}
-.gallery {
-	margin-top: 40px;
-}
 .photo {
 	height: 50%;
 	border: solid 1px #161616;
@@ -408,4 +345,69 @@ footer {
 
 .modal-title {
 	color: #fff;
+}
+
+#rgSec {
+	height: 100vh;
+}
+
+.borderbot {
+	border-bottom: solid 1px #160549;
+}
+.rishi {
+	font-size: 90px !important;
+	text-align: center;
+}
+
+.footer-banner {
+	width: 100%;
+	height: 75px;
+	position: absolute;
+	bottom: 0px
+}
+
+.myTitle {
+	font-size: 60px;
+	font-family: 'HelveticaNeue-Thin';
+	margin-top: 12vh;
+}
+.contact {
+	width: 100%;
+}
+
+
+.icon {
+	height: 60px;
+}
+
+.member>div {
+	padding: 0px !important;
+}
+
+.bio {
+	margin: 0px !important;
+	padding: 0px;
+}
+
+.outer {
+    display: table;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+  list-style-type: none;
 }
