@@ -402,6 +402,12 @@ a.none {
     padding-bottom: 20px;
 }
 
-li{
+li {
   list-style-type: none;
+}
+
+@media screen and (max-width:375px) {
+  #navItem, #logo {
+  	display: none;
+  }
 }
