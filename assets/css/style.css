@@ -217,6 +217,10 @@ p.large {
 	line-height: 175%;
 }
 
+.wattpad.member {
+	background-color: #110635;
+}
+
 .capco.member {
 	background-color: #160549;
 }
@@ -241,12 +245,18 @@ p.large {
 	right: 0px;
 }
 
+.wattpad>.picture {
+	background: url(../img/wattpad_logo.png) no-repeat;
+	background-size: auto 500px;
+	background-position: right 100px bottom;
+}
 
 .capco>.picture {
 	background: url(../img/capco_logo.png) no-repeat;
 	background-size: auto 500px;
 	background-position: left 100px bottom;
 }
+
 .redLab>.picture {
 	background: url(../img/manulife_logo.png) no-repeat;
 	background-size: auto 500px;
