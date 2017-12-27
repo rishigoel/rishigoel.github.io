@@ -217,6 +217,10 @@ p.large {
 	line-height: 175%;
 }
 
+.yelp.member {
+	background-color: #110047;
+}
+
 .wattpad.member {
 	background-color: #110635;
 }
@@ -243,6 +247,12 @@ p.large {
 
 .picture.alignLeft {
 	right: 0px;
+}
+
+.yelp>.picture {
+	background: url(../img/yelp_logo.png) no-repeat;
+	background-size: auto 500px;
+	background-position: left 50px bottom;
 }
 
 .wattpad>.picture {
